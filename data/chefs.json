@@ -1,0 +1,58 @@
+[
+      {
+        "picture": "../assets/food1.jpg",
+        "name": "John Smith",
+        "experience": 10,
+        "numRecipes": 50,
+        "likes": 5000,
+        "viewRecipesButton": "https://example.com/chef1/recipes"
+      },
+      {
+        "picture": "https://example.com/chef2.jpg",
+        "name": "Sarah Lee",
+        "experience": 5,
+        "numRecipes": 30,
+        "likes": 3000,
+        "viewRecipesButton": "https://example.com/chef2/recipes"
+      },
+      {
+        "picture": "https://example.com/chef3.jpg",
+        "name": "David Kim",
+        "experience": 15,
+        "numRecipes": 75,
+        "likes": 7500,
+        "viewRecipesButton": "https://example.com/chef3/recipes"
+      },
+      {
+        "picture": "https://example.com/chef4.jpg",
+        "name": "Lena Chen",
+        "experience": 8,
+        "numRecipes": 45,
+        "likes": 4000,
+        "viewRecipesButton": "https://example.com/chef4/recipes"
+      },
+      {
+        "picture": "https://example.com/chef5.jpg",
+        "name": "Mark Johnson",
+        "experience": 12,
+        "numRecipes": 60,
+        "likes": 6000,
+        "viewRecipesButton": "https://example.com/chef5/recipes"
+      },
+      {
+        "picture": "https://example.com/chef6.jpg",
+        "name": "Emily Wong",
+        "experience": 7,
+        "numRecipes": 25,
+        "likes": 2500,
+        "viewRecipesButton": "https://example.com/chef6/recipes"
+      },
+      {
+        "picture": "https://example.com/chef7.jpg",
+        "name": "Jackie Lee",
+        "experience": 20,
+        "numRecipes": 100,
+        "likes": 10000,
+        "viewRecipesButton": "https://example.com/chef7/recipes"
+      }
+    ]
