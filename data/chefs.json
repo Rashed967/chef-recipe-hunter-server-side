@@ -1,58 +1,711 @@
 [
       {
-        "picture": "../assets/food1.jpg",
+        "picture": "https://rb.gy/1k9xh",
         "name": "John Smith",
+        "bio" :"John has been a professional chef for 10 years and has created over 50 unique recipes. He is known for his exquisite grilled salmon and beef stroganoff dishes.",
         "experience": 10,
         "numRecipes": 50,
+        "recipes": [
+          {
+            "picture": "https://rb.gy/nn66y",
+            "name": "Grilled Salmon",
+            "price": 20,
+            "id": "recipe1",
+            "ingredients": [
+              "Salmon fillets",
+              "Olive oil",
+              "Lemon juice",
+              "Garlic",
+              "Salt and pepper"
+            ],
+            "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+            "rating": 4.5
+          },
+
+          {
+            "picture": "https://rb.gy/nn66y",
+            "name": "Beef Stroganoff",
+            "price": 25,
+            "id": "recipe2",
+            "ingredients": [
+              "Beef tenderloin",
+              "Mushrooms",
+              "Onion",
+              "Sour cream",
+              "Egg noodles"
+            ],
+            "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+            "rating": 4.8
+          },
+          {
+            "picture": "https://rb.gy/nn66y",
+            "name": "Pesto Pasta",
+            "price": 15,
+            "id": "recipe3",
+            "ingredients": [
+              "Penne pasta",
+              "Basil",
+              "Garlic",
+              "Olive oil",
+              "Parmesan cheese"
+            ],
+            "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+            "rating": 4.3
+          },
+          {
+            "picture": "https://rb.gy/nn66y",
+            "name": "Roasted Chicken",
+            "price": 18,
+            "id": "recipe4",
+            "ingredients": [
+              "Whole chicken",
+              "Butter",
+              "Lemon",
+              "Garlic",
+              "Thyme"
+            ],
+            "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+            "rating": 4.6
+          },
+          {
+            "picture": "https://rb.gy/nn66y",
+            "name": "Spaghetti Bolognese",
+            "price": 12,
+            "id": "recipe5",
+            "ingredients": [
+              "Ground beef",
+              "Onion",
+              "Carrot",
+              "Tomato sauce",
+              "Spaghetti"
+            ],
+            "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+            "rating": 4.4
+          },
+          {
+            "picture": "https://rb.gy/nn66y",
+            "name": "Vegetable Stir-Fry",
+            "price": 10,
+            "id": "recipe6",
+            "ingredients": [
+              "Broccoli",
+              "Bell pepper",
+              "Carrot",
+              "Mushrooms",
+              "Soy sauce"
+            ],
+            "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+            "rating": 4.2
+          }
+        ],
+
         "likes": 5000,
-        "viewRecipesButton": "https://example.com/chef1/recipes"
+        "id" : 1
       },
       {
-        "picture": "https://example.com/chef2.jpg",
+        "picture": "https://rb.gy/4htt3",
         "name": "Sarah Lee",
+        "bio" : "Sarah is a young chef with 5 years of experience and 30 signature recipes. Her chicken curry is a customer favorite, but her range of vegetarian dishes, including the vegetable stir-fry, are equally delicious.",
         "experience": 5,
         "numRecipes": 30,
+        "recipes": [
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Grilled Salmon",
+          "price": 20,
+          "id": "recipe1",
+          "ingredients": [
+          "Salmon fillets",
+          "Olive oil",
+          "Lemon juice",
+          "Garlic",
+          "Salt and pepper"
+          ],
+          "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+          "rating": 4.5
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Beef Stroganoff",
+          "price": 25,
+          "id": "recipe2",
+          "ingredients": [
+          "Beef tenderloin",
+          "Mushrooms",
+          "Onion",
+          "Sour cream",
+          "Egg noodles"
+          ],
+          "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+          "rating": 4.8
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Pesto Pasta",
+          "price": 15,
+          "id": "recipe3",
+          "ingredients": [
+          "Penne pasta",
+          "Basil",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese"
+          ],
+          "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+          "rating": 4.3
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Roasted Chicken",
+          "price": 18,
+          "id": "recipe4",
+          "ingredients": [
+          "Whole chicken",
+          "Butter",
+          "Lemon",
+          "Garlic",
+          "Thyme"
+          ],
+          "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+          "rating": 4.6
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Spaghetti Bolognese",
+          "price": 12,
+          "id": "recipe5",
+          "ingredients": [
+          "Ground beef",
+          "Onion",
+          "Carrot",
+          "Tomato sauce",
+          "Spaghetti"
+          ],
+          "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+          "rating": 4.4
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Vegetable Stir-Fry",
+          "price": 10,
+          "id": "recipe6",
+          "ingredients": [
+          "Broccoli",
+          "Bell pepper",
+          "Carrot",
+          "Mushrooms",
+          "Soy sauce"
+          ],
+          "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+          "rating": 4.2
+          }
+          ],
         "likes": 3000,
-        "viewRecipesButton": "https://example.com/chef2/recipes"
+        "id" : 2
       },
       {
-        "picture": "https://example.com/chef3.jpg",
+        "picture": "https://rb.gy/f3eqq",
         "name": "David Kim",
+        "bio" : "Michael has been a chef for over 20 years, and his experience shows in his diverse range of 100+ recipes. From Italian-inspired pasta dishes to Asian-fusion stir-fry, Michael's cooking expertise knows no bounds.",
         "experience": 15,
         "numRecipes": 75,
+        "recipes": [
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Grilled Salmon",
+          "price": 20,
+          "id": "recipe1",
+          "ingredients": [
+          "Salmon fillets",
+          "Olive oil",
+          "Lemon juice",
+          "Garlic",
+          "Salt and pepper"
+          ],
+          "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+          "rating": 4.5
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Beef Stroganoff",
+          "price": 25,
+          "id": "recipe2",
+          "ingredients": [
+          "Beef tenderloin",
+          "Mushrooms",
+          "Onion",
+          "Sour cream",
+          "Egg noodles"
+          ],
+          "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+          "rating": 4.8
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Pesto Pasta",
+          "price": 15,
+          "id": "recipe3",
+          "ingredients": [
+          "Penne pasta",
+          "Basil",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese"
+          ],
+          "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+          "rating": 4.3
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Roasted Chicken",
+          "price": 18,
+          "id": "recipe4",
+          "ingredients": [
+          "Whole chicken",
+          "Butter",
+          "Lemon",
+          "Garlic",
+          "Thyme"
+          ],
+          "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+          "rating": 4.6
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Spaghetti Bolognese",
+          "price": 12,
+          "id": "recipe5",
+          "ingredients": [
+          "Ground beef",
+          "Onion",
+          "Carrot",
+          "Tomato sauce",
+          "Spaghetti"
+          ],
+          "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+          "rating": 4.4
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Vegetable Stir-Fry",
+          "price": 10,
+          "id": "recipe6",
+          "ingredients": [
+          "Broccoli",
+          "Bell pepper",
+          "Carrot",
+          "Mushrooms",
+          "Soy sauce"
+          ],
+          "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+          "rating": 4.2
+          }
+          ],
         "likes": 7500,
-        "viewRecipesButton": "https://example.com/chef3/recipes"
+        "id" : 3
       },
       {
-        "picture": "https://example.com/chef4.jpg",
+        "picture": "https://rb.gy/kk98z",
         "name": "Lena Chen",
+        "bio" : "Maria is a seasoned chef with over 15 years of experience and has created over 70 original recipes. Her roasted chicken and classic spaghetti bolognese are customer favorites, and her dishes always have a touch of home-style cooking.",
         "experience": 8,
         "numRecipes": 45,
+        "recipes": [
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Grilled Salmon",
+          "price": 20,
+          "id": "recipe1",
+          "ingredients": [
+          "Salmon fillets",
+          "Olive oil",
+          "Lemon juice",
+          "Garlic",
+          "Salt and pepper"
+          ],
+          "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+          "rating": 4.5
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Beef Stroganoff",
+          "price": 25,
+          "id": "recipe2",
+          "ingredients": [
+          "Beef tenderloin",
+          "Mushrooms",
+          "Onion",
+          "Sour cream",
+          "Egg noodles"
+          ],
+          "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+          "rating": 4.8
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Pesto Pasta",
+          "price": 15,
+          "id": "recipe3",
+          "ingredients": [
+          "Penne pasta",
+          "Basil",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese"
+          ],
+          "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+          "rating": 4.3
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Roasted Chicken",
+          "price": 18,
+          "id": "recipe4",
+          "ingredients": [
+          "Whole chicken",
+          "Butter",
+          "Lemon",
+          "Garlic",
+          "Thyme"
+          ],
+          "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+          "rating": 4.6
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Spaghetti Bolognese",
+          "price": 12,
+          "id": "recipe5",
+          "ingredients": [
+          "Ground beef",
+          "Onion",
+          "Carrot",
+          "Tomato sauce",
+          "Spaghetti"
+          ],
+          "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+          "rating": 4.4
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Vegetable Stir-Fry",
+          "price": 10,
+          "id": "recipe6",
+          "ingredients": [
+          "Broccoli",
+          "Bell pepper",
+          "Carrot",
+          "Mushrooms",
+          "Soy sauce"
+          ],
+          "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+          "rating": 4.2
+          }
+          ],
         "likes": 4000,
-        "viewRecipesButton": "https://example.com/chef4/recipes"
+        "id" : 4
       },
       {
-        "picture": "https://example.com/chef5.jpg",
+        "picture": "https://rb.gy/lwxvp",
         "name": "Mark Johnson",
+        "bio" : "David is a rising star in the culinary world with 3 years of experience and 20 signature recipes. His modern take on traditional dishes has been a hit with customers, especially his spicy Korean-style fried chicken.",
         "experience": 12,
         "numRecipes": 60,
+        "recipes": [
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Grilled Salmon",
+          "price": 20,
+          "id": "recipe1",
+          "ingredients": [
+          "Salmon fillets",
+          "Olive oil",
+          "Lemon juice",
+          "Garlic",
+          "Salt and pepper"
+          ],
+          "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+          "rating": 4.5
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Beef Stroganoff",
+          "price": 25,
+          "id": "recipe2",
+          "ingredients": [
+          "Beef tenderloin",
+          "Mushrooms",
+          "Onion",
+          "Sour cream",
+          "Egg noodles"
+          ],
+          "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+          "rating": 4.8
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Pesto Pasta",
+          "price": 15,
+          "id": "recipe3",
+          "ingredients": [
+          "Penne pasta",
+          "Basil",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese"
+          ],
+          "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+          "rating": 4.3
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Roasted Chicken",
+          "price": 18,
+          "id": "recipe4",
+          "ingredients": [
+          "Whole chicken",
+          "Butter",
+          "Lemon",
+          "Garlic",
+          "Thyme"
+          ],
+          "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+          "rating": 4.6
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Spaghetti Bolognese",
+          "price": 12,
+          "id": "recipe5",
+          "ingredients": [
+          "Ground beef",
+          "Onion",
+          "Carrot",
+          "Tomato sauce",
+          "Spaghetti"
+          ],
+          "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+          "rating": 4.4
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Vegetable Stir-Fry",
+          "price": 10,
+          "id": "recipe6",
+          "ingredients": [
+          "Broccoli",
+          "Bell pepper",
+          "Carrot",
+          "Mushrooms",
+          "Soy sauce"
+          ],
+          "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+          "rating": 4.2
+          }
+          ],
         "likes": 6000,
-        "viewRecipesButton": "https://example.com/chef5/recipes"
+        "id" : 5
       },
       {
-        "picture": "https://example.com/chef6.jpg",
+        "picture": "https://rb.gy/1k9xh",
         "name": "Emily Wong",
+        "bio" : "Lisa is a talented chef who specializes in healthy and plant-based dishes. She has created over 40 vegan and vegetarian recipes that are both delicious and nutritious. Her mushroom risotto and lentil curry are particularly popular among her customers.",
         "experience": 7,
         "numRecipes": 25,
+        "recipes": [
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Grilled Salmon",
+          "price": 20,
+          "id": "recipe1",
+          "ingredients": [
+          "Salmon fillets",
+          "Olive oil",
+          "Lemon juice",
+          "Garlic",
+          "Salt and pepper"
+          ],
+          "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+          "rating": 4.5
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Beef Stroganoff",
+          "price": 25,
+          "id": "recipe2",
+          "ingredients": [
+          "Beef tenderloin",
+          "Mushrooms",
+          "Onion",
+          "Sour cream",
+          "Egg noodles"
+          ],
+          "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+          "rating": 4.8
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Pesto Pasta",
+          "price": 15,
+          "id": "recipe3",
+          "ingredients": [
+          "Penne pasta",
+          "Basil",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese"
+          ],
+          "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+          "rating": 4.3
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Roasted Chicken",
+          "price": 18,
+          "id": "recipe4",
+          "ingredients": [
+          "Whole chicken",
+          "Butter",
+          "Lemon",
+          "Garlic",
+          "Thyme"
+          ],
+          "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+          "rating": 4.6
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Spaghetti Bolognese",
+          "price": 12,
+          "id": "recipe5",
+          "ingredients": [
+          "Ground beef",
+          "Onion",
+          "Carrot",
+          "Tomato sauce",
+          "Spaghetti"
+          ],
+          "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+          "rating": 4.4
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Vegetable Stir-Fry",
+          "price": 10,
+          "id": "recipe6",
+          "ingredients": [
+          "Broccoli",
+          "Bell pepper",
+          "Carrot",
+          "Mushrooms",
+          "Soy sauce"
+          ],
+          "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+          "rating": 4.2
+          }
+          ],
         "likes": 2500,
-        "viewRecipesButton": "https://example.com/chef6/recipes"
+        "id" : 6
       },
       {
-        "picture": "https://example.com/chef7.jpg",
+        "picture": "https://rb.gy/f3eqq",
         "name": "Jackie Lee",
+        "bio" : "Jackie Lee is a rising star in the culinary world with 3 years of experience and 20 signature recipes. His modern take on traditional dishes has been a hit with customers, especially his spicy Korean-style fried chicken.",
         "experience": 20,
         "numRecipes": 100,
+        "recipes": [
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Grilled Salmon",
+          "price": 20,
+          "id": "recipe1",
+          "ingredients": [
+          "Salmon fillets",
+          "Olive oil",
+          "Lemon juice",
+          "Garlic",
+          "Salt and pepper"
+          ],
+          "method": "1. Preheat grill to medium-high heat. \n2. Brush salmon fillets with olive oil and season with salt and pepper. \n3. Grill for 5-7 minutes on each side, or until cooked through. \n4. Drizzle with lemon juice and garlic before serving.",
+          "rating": 4.5
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Beef Stroganoff",
+          "price": 25,
+          "id": "recipe2",
+          "ingredients": [
+          "Beef tenderloin",
+          "Mushrooms",
+          "Onion",
+          "Sour cream",
+          "Egg noodles"
+          ],
+          "method": "1. Heat oil in a large skillet over medium-high heat. \n2. Add beef and cook until browned. \n3. Add onions and mushrooms and cook until soft. \n4. Stir in sour cream and heat through. \n5. Serve over cooked egg noodles.",
+          "rating": 4.8
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Pesto Pasta",
+          "price": 15,
+          "id": "recipe3",
+          "ingredients": [
+          "Penne pasta",
+          "Basil",
+          "Garlic",
+          "Olive oil",
+          "Parmesan cheese"
+          ],
+          "method": "1. Cook penne pasta according to package instructions. \n2. In a food processor, blend basil, garlic, and olive oil until smooth. \n3. Toss pesto with cooked pasta and top with grated Parmesan cheese.",
+          "rating": 4.3
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Roasted Chicken",
+          "price": 18,
+          "id": "recipe4",
+          "ingredients": [
+          "Whole chicken",
+          "Butter",
+          "Lemon",
+          "Garlic",
+          "Thyme"
+          ],
+          "method": "1. Preheat oven to 425°F. \n2. Rinse chicken and pat dry. \n3. Stuff with lemon and garlic, and rub butter and thyme on top. \n4. Roast for 1 hour and 15 minutes, or until cooked through. \n5. Let rest for 10 minutes before carving.",
+          "rating": 4.6
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Spaghetti Bolognese",
+          "price": 12,
+          "id": "recipe5",
+          "ingredients": [
+          "Ground beef",
+          "Onion",
+          "Carrot",
+          "Tomato sauce",
+          "Spaghetti"
+          ],
+          "method": "1. Cook spaghetti according to package instructions. \n2. Brown ground beef in a large skillet over medium heat. \n3. Add onions and carrots and cook until soft. \n4. Stir in tomato sauce and simmer for 10-15 minutes. \n5. Serve over cooked spaghetti.",
+          "rating": 4.4
+          },
+          {
+          "picture": "https://rb.gy/nn66y",
+          "name": "Vegetable Stir-Fry",
+          "price": 10,
+          "id": "recipe6",
+          "ingredients": [
+          "Broccoli",
+          "Bell pepper",
+          "Carrot",
+          "Mushrooms",
+          "Soy sauce"
+          ],
+          "method": "1. Heat oil in a wok or large skillet over high heat Add vegetables and stir-fry for 3-5 minutes, or until tender-crisp. \n3. Add soy sauce and stir to combine. \n4. Serve hot over rice or noodles.",
+          "rating": 4.2
+          }
+          ],
         "likes": 10000,
-        "viewRecipesButton": "https://example.com/chef7/recipes"
+        "id" : 7
       }
     ]
