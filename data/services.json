@@ -1,0 +1,52 @@
+[
+      {
+        "title": "Dine-In",
+        "image" : "https://rb.gy/dhni7",
+        "_id" : "1",
+        "description": "Enjoy a comfortable and relaxing dining experience in our restaurant. Our staff will take care of your every need while you savor our delicious food."
+      },
+      {
+        "title": "Takeout",
+        "image" : "https://rb.gy/ad74w",
+        "_id" : "2",
+        "description": "Order your favorite dishes from our menu and take them home with you. Perfect for busy days or for when you want to enjoy our food in the comfort of your own home."
+      },
+      {
+        "title": "Delivery",
+        "image" : "https://rb.gy/ar61q",
+        "_id" : "3",
+        "description": "Can't make it to our restaurant? No problem! We offer delivery services to bring our food right to your doorstep. Just place your order and we'll take care of the rest."
+      },
+      {
+        "title": "Catering",
+        "image" : "https://rb.gy/dhni7",
+        "_id" : "4",
+        "description": "Planning a special event? Let us take care of the food. We offer catering services for weddings, parties, and other occasions. Our expert chefs will create a custom menu that will delight your guests."
+      },
+      {
+        "title": "Private Dining",
+        "image" : "https://rb.gy/ad74w",
+        "_id" : "5",
+        "description": "Need a private space for a business meeting or special occasion? Our restaurant has private dining rooms available for reservation. Enjoy our delicious food in an intimate setting."
+      },
+      {
+        "title": "Happy Hour",
+        "image" : "https://rb.gy/dhni7",
+        "_id" : "6",
+        "description": "Join us for happy hour and enjoy discounted drinks and appetizers. Perfect for catching up with friends or unwinding after a long day."
+      },
+      {
+        "title": "Live Music",
+        "image" : "https://rb.gy/dhni7",
+        "_id" : "7",
+        "description": "Experience the best of both worlds – great food and live music. We host live music events regularly, so you can enjoy your favorite dishes while listening to local artists."
+      },
+      {
+        "title": "Brunch",
+        "image" : "https://rb.gy/ad74w",
+        "_id" : "8",
+        "description": "Join us for brunch on the weekends and enjoy a delicious meal with friends and family. Our brunch menu features classic breakfast dishes, as well as unique creations that you won't find anywhere else."
+      }
+    ]
+  
+  

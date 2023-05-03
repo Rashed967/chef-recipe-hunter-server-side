@@ -8,6 +8,7 @@ app.use(cors())
 
 const navBar = require('./data/nav.json')
 const chefs = require('./data/chefs.json')
+const services = require('./data/services.json')
 
 
 app.get('/', (req, res) => {
@@ -26,6 +27,10 @@ app.get("/chefs/:id", (req, res) => {
     const id = req.params.id;
     const selecetedChef = chefs.find(n => n.id == id)
     res.send(selecetedChef) 
+})
+
+app.get('/services', (req, res) => {
+    res.send(services)
 })
 
 app.listen(port , () => {
